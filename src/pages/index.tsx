@@ -24,18 +24,12 @@ export default function Home() {
   return (
     <main>
       <Topo />
-      <div className="bg-gray-400  flex flex-col items-center justify-center text-2xl min-h-[400]">
+      <div className="bg-gray-400  flex flex-col items-center justify-center text-2xl min-h-[600px] w-[100%]">
         <div style={{ color: "gray" }}>Hello World</div>
         <div>Curso de React Next.js</div>
         <div>
           Meu nome é {retornarNome()} tenho: {retornarIdade()} anos.
         </div>
-      </div>
-
-      <div className="flex justify-center items-center mt-4 mb-4">
-        <Card produto={"Mouse"} valor={49.99} />
-        <Card produto={"Teclado"} valor={69.99} />
-        <Card produto={"Monitor"} valor={459.99} />
       </div>
       <div style={teste}>Estilo em Objeto</div>
     </main>

@@ -1,10 +1,36 @@
 @import "tailwindcss";
 
-/*@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;*/
+@tailwind utilities; */
 
-.subtitulo {
-  color: rgb(206, 49, 54);
-  font-weight: bold;
+:root {
+}
+
+/* .btnPadrao {
+  display: flex;
+  background-color: #ddd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 28px;
+} */
+
+.campForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  width: 100%;
+  background-color: aqua;
+}
+
+.campForm label {
+  font-size: 22px;
+}
+
+.campForm input {
+  border: 2px solid #888;
+  border-radius: 3px;
+  padding: 5px;
 }
